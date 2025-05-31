@@ -45,7 +45,8 @@
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/NKA-Generator.git
+git clone https://github.com/LukasCec/NKA-Generator.git
+
 cd NKA-Generator-main/src
 ```
 
