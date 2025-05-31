@@ -1,0 +1,12 @@
+<regular>      = <alternative> ;
+
+<alternative>  = <sequence> , { "|" , <sequence> } ;
+
+<sequence>     = { <element> } ;
+
+<element>      = "{" , <regular> , "}"          
+               = "[" , <regular> , "]"          
+               = <symbol>
+               = "ε"                                          ;
+
+<symbol>       = ? ľubovoľný znak a-z, A-Z ? ;
